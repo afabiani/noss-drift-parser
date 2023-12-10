@@ -1,0 +1,36 @@
+{
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      19.056792,
+      47.490894
+    ]
+  },
+  "type": "Feature",
+  "id": "SG_1iYphlxn9BSHyGrpv1aXKc_47.490894_19.056792@1308163237",
+  "properties": {
+    "website": "http://mito.hu",
+    "city": "Budapest",
+    "name": "Mito Europe",
+    "tags": [
+      "online",
+      "communication",
+      "design",
+      "branding",
+      "development",
+      "mito"
+    ],
+    "country": "HU",
+    "classifiers": [
+      {
+        "category": "Professional",
+        "type": "Services",
+        "subcategory": "Advertising"
+      }
+    ],
+    "href": "http://api.simplegeo.com/1.0/features/SG_1iYphlxn9BSHyGrpv1aXKc_47.490894_19.056792@1308163237.json",
+    "address": "Nádor u. 23.",
+    "owner": "simplegeo",
+    "postcode": "1051"
+  }
+}
