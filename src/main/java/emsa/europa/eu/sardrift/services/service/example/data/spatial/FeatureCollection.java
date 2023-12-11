@@ -28,11 +28,18 @@ public class FeatureCollection {
 
     public static class Feature {
 
+        @JsonProperty("type")
+        private String type = "Feature";
+
         @JsonProperty("properties")
         private Properties properties;
 
         @JsonProperty("geometry")
         private Geometry geometry;
+
+        public String getType() {
+            return type;
+        }
 
         public Properties getProperties() {
             return properties;
