@@ -3,7 +3,7 @@ package emsa.europa.eu.sardrift.services.service.example.data.in;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.time.ZonedDateTime;
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Map;
 
@@ -40,7 +40,7 @@ public class Simulation {
     public static class Feature {
         @JsonProperty("time")
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
-        private ZonedDateTime time;
+        private OffsetDateTime time;
 
         @JsonProperty("super-ellipse")
         private Feature.SuperEllipse superEllipse;
@@ -51,7 +51,7 @@ public class Simulation {
         @JsonProperty("clusters")
         private Map<String, Feature.Cluster> clusters;
 
-        public ZonedDateTime getTime() {
+        public OffsetDateTime getTime() {
             return time;
         }
 

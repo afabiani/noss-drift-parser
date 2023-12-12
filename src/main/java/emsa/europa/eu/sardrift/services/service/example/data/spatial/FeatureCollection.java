@@ -5,22 +5,21 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import emsa.europa.eu.sardrift.services.service.example.data.spatial.geom.Geometry;
 
-import java.time.ZonedDateTime;
+import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class FeatureCollection {
 
     @JsonProperty("type")
-    private String type = "FeatureCollection";
+    private final String type = "FeatureCollection";
 
     public String getType() {
         return type;
     }
 
     @JsonProperty("features")
-    private List<Feature> features = new ArrayList<Feature>();
+    private final List<Feature> features = new ArrayList<Feature>();
 
     public List<Feature> getFeatures() {
         return features;
@@ -29,7 +28,7 @@ public class FeatureCollection {
     public static class Feature {
 
         @JsonProperty("type")
-        private String type = "Feature";
+        private final String type = "Feature";
 
         @JsonProperty("properties")
         private Properties properties;
@@ -58,16 +57,19 @@ public class FeatureCollection {
         }
     }
 
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     public static class Properties {
 
         @JsonProperty("time_step")
         private String timeStep;
 
         @JsonProperty("start_time")
-        private String startTime;
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
+        private OffsetDateTime startTime;
 
         @JsonProperty("end_time")
-        private String endTime;
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
+        private OffsetDateTime endTime;
 
         @JsonProperty("number_of_times")
         private int numberOfTimes;
@@ -75,7 +77,7 @@ public class FeatureCollection {
         @JsonProperty("model_name")
         private String modelName;
 
-        @JsonProperty("requestID")
+        @JsonProperty("request_id")
         private int requestID;
 
         @JsonProperty("simulation")
@@ -89,7 +91,7 @@ public class FeatureCollection {
 
         @JsonProperty("time")
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
-        private ZonedDateTime time;
+        private OffsetDateTime time;
 
         @JsonProperty("latitude_of_center")
         private Double latitudeOfCenter;
@@ -218,19 +220,19 @@ public class FeatureCollection {
         @JsonProperty("bbox_centerlat")
         private Double bboxCenterLat;
 
-        @JsonProperty("super-ellipsis_centerlon")
+        @JsonProperty("super_ellipsis_centerlon")
         private Double superEllipsisCenterLon;
 
-        @JsonProperty("super-ellipsis_centerlat")
+        @JsonProperty("super_ellipsis_centerlat")
         private Double superEllipsisCenterLat;
 
-        @JsonProperty("super-ellipsis_major_axis")
+        @JsonProperty("super_ellipsis_major_axis")
         private Double superEllipsisMajorAxis;
 
-        @JsonProperty("super-ellipsis_minor_axis")
+        @JsonProperty("super_ellipsis_minor_axis")
         private Double superEllipsisMinorAxis;
 
-        @JsonProperty("super-ellipsis_major_axis_azimuth_angle")
+        @JsonProperty("super_ellipsis_major_axis_azimuth_angle")
         private Double superEllipsisMajorAxisAzimuthAngle;
 
         public String getTimeStep() {
@@ -241,19 +243,19 @@ public class FeatureCollection {
             this.timeStep = timeStep;
         }
 
-        public String getStartTime() {
+        public OffsetDateTime getStartTime() {
             return startTime;
         }
 
-        public void setStartTime(String startTime) {
+        public void setStartTime(OffsetDateTime startTime) {
             this.startTime = startTime;
         }
 
-        public String getEndTime() {
+        public OffsetDateTime getEndTime() {
             return endTime;
         }
 
-        public void setEndTime(String endTime) {
+        public void setEndTime(OffsetDateTime endTime) {
             this.endTime = endTime;
         }
 
@@ -305,11 +307,11 @@ public class FeatureCollection {
             this.oceanForcing = oceanForcing;
         }
 
-        public ZonedDateTime getTime() {
+        public OffsetDateTime getTime() {
             return time;
         }
 
-        public void setTime(ZonedDateTime time) {
+        public void setTime(OffsetDateTime time) {
             this.time = time;
         }
 

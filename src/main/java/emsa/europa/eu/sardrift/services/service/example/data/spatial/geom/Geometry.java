@@ -4,9 +4,9 @@ import java.util.List;
 
 public interface Geometry<E> {
 
-    public String getType();
+    String getType();
 
-    public List<E> getCoordinates();
+    List<E> getCoordinates();
 
-    public void setCoordinates(List<E> coordinates);
+    void setCoordinates(List<E> coordinates);
 }

@@ -8,7 +8,7 @@ import java.util.List;
 public class PointGeometry implements Geometry<Double> {
 
     @JsonProperty("type")
-    private String type = "Point";
+    private final String type = "Point";
 
     @JsonProperty("coordinates")
     private List<Double> coordinates = new ArrayList<Double>();
@@ -31,5 +31,26 @@ public class PointGeometry implements Geometry<Double> {
     @Override
     public void setCoordinates(List<Double> coordinates) {
         this.coordinates = coordinates;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("{\n");
+        stringBuilder.append("    \"type\": \"").append(type).append("\",\n");
+        stringBuilder.append("    \"coordinates\": [\n");
+
+        for (int i = 0; i < coordinates.size(); i++) {
+            stringBuilder.append("        ").append(coordinates.get(i));
+            if (i < coordinates.size() - 1) {
+                stringBuilder.append(",");
+            }
+            stringBuilder.append("\n");
+        }
+
+        stringBuilder.append("    ]\n");
+        stringBuilder.append("}");
+
+        return stringBuilder.toString();
     }
 }

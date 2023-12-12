@@ -27,6 +27,13 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
             <version>2.12.5</version> <!-- Use the latest version available -->
         </dependency>
+
+        <!-- PostgreSQL JDBC Driver -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.1</version> <!-- Use the latest version available -->
+        </dependency>
     </dependencies>
 	
 	<build>
@@ -38,6 +45,26 @@
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
+            </configuration>
+        </plugin>
+
+        <!-- Maven Exec Plugin -->
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.1.1</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <mainClass>emsa.europa.eu.sardrift.services.service.example.NOOSDriftJsonConverter</mainClass>
+                <!-- Add any additional configuration parameters here -->
+                <!-- outputFile>${project.build.directory}/exec-maven-plugin-out.txt</outputFile -->
+                <!-- errorFile>${project.build.directory}/exec-maven-plugin-err.txt</errorFile -->
             </configuration>
         </plugin>
     </plugins>

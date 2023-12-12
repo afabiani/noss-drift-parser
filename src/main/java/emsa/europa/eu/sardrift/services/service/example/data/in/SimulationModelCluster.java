@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import emsa.europa.eu.sardrift.services.service.example.data.spatial.geom.MutiPointGeometry;
 
-import java.time.ZonedDateTime;
+import java.time.OffsetDateTime;
 import java.util.List;
 
 public class SimulationModelCluster {
@@ -36,10 +36,12 @@ public class SimulationModelCluster {
         private String timeStep;
 
         @JsonProperty("start_time")
-        private String startTime;
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
+        private OffsetDateTime startTime;
 
         @JsonProperty("end_time")
-        private String endTime;
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
+        private OffsetDateTime endTime;
 
         @JsonProperty("number_of_times")
         private int numberOfTimes;
@@ -60,11 +62,11 @@ public class SimulationModelCluster {
             return timeStep;
         }
 
-        public String getStartTime() {
+        public OffsetDateTime getStartTime() {
             return startTime;
         }
 
-        public String getEndTime() {
+        public OffsetDateTime getEndTime() {
             return endTime;
         }
 
@@ -93,7 +95,7 @@ public class SimulationModelCluster {
 
         @JsonProperty("time")
         @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssX")
-        private ZonedDateTime time;
+        private OffsetDateTime time;
 
         @JsonProperty("latitude_of_center")
         private double latitudeOfCenter;
@@ -119,7 +121,7 @@ public class SimulationModelCluster {
         @JsonProperty("geometry")
         private MutiPointGeometry geometry;
 
-        public ZonedDateTime getTime() {
+        public OffsetDateTime getTime() {
             return time;
         }
 

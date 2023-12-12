@@ -7,8 +7,11 @@ import emsa.europa.eu.sardrift.services.service.example.data.in.SimulationModelC
 
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.logging.Logger;
 
 public class JsonParser {
+
+    private static final Logger LOGGER = Logger.getLogger(JsonParser.class.getName());
 
     // Create an ObjectMapper instance
     static ObjectMapper objectMapper = new ObjectMapper();
