@@ -1,0 +1,3033 @@
+{
+  "type": "FeatureCollection",
+  "simulations": {
+    "0": "opendrift_topaz_ncep",
+    "1": "oserit_optos_ukmo",
+    "2": "mothy_cmems-nws1.5_ecmwf",
+    "3": "mothy_cmems-nws1.5_arpege"
+  },
+  "coverage": {
+    "lonmin": 1.9202,
+    "lonmax": 2.4969,
+    "latmin": 51.91162109375,
+    "latmax": 52.4041,
+    "centerlon": 2.1809694073816406,
+    "centerlat": 52.06650802239457
+  },
+  "features": [
+    {
+      "time": "2023-12-06T00:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.158820107757696,
+        "centerlat": 52.09993417211008,
+        "ellipsis_major_axis": 815.6065322279054,
+        "ellipsis_minor_axis": 791.7093000021275,
+        "ellipsis_major_axis_azimuth_angle": 25.511683358856203
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 1000.0557673388251,
+          "ellipsis_minor_axis": 970.7803534125645,
+          "centerlon": 2.1587,
+          "centerlat": 52.1,
+          "ellipsis_major_axis_azimuth_angle": 25.439846951787104
+        },
+        "1": {
+          "ellipsis_major_axis": 1000.0545812181922,
+          "ellipsis_minor_axis": 970.7801465442772,
+          "centerlon": 2.158729583930969,
+          "centerlat": 52.09990104827881,
+          "ellipsis_major_axis_azimuth_angle": 25.440728091794654
+        },
+        "2": {
+          "ellipsis_major_axis": 0.0,
+          "ellipsis_minor_axis": 0.0,
+          "centerlon": 2.1590000000000633,
+          "centerlat": 52.09999999999897,
+          "ellipsis_major_axis_azimuth_angle": -90.0
+        },
+        "3": {
+          "ellipsis_major_axis": 0.0,
+          "ellipsis_minor_axis": 0.0,
+          "centerlon": 2.1590000000000633,
+          "centerlat": 52.09999999999897,
+          "ellipsis_major_axis_azimuth_angle": -90.0
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1587,
+            2.158729583930969,
+            2.1590000000000633,
+            2.1590000000000633
+          ],
+          "memberlats": [
+            52.1,
+            52.09990104827881,
+            52.09999999999897,
+            52.09999999999897
+          ],
+          "centerlon": 2.1588650823116615,
+          "centerlat": 52.0999653438563,
+          "distance_from_cluster_centre": [
+            9.192890084409154,
+            11.695015405346322,
+            9.98887388149289,
+            9.98887388149289
+          ],
+          "distance_std": 0.9134292984047956,
+          "longest_ellipsis_axis": 1000.0557673388251
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T01:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1558724946098167,
+        "centerlat": 52.08941278242809,
+        "ellipsis_major_axis": 1055.9581977281407,
+        "ellipsis_minor_axis": 833.3332702212174,
+        "ellipsis_major_axis_azimuth_angle": 14.867104693370152
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 1081.3085698812595,
+          "ellipsis_minor_axis": 1035.8517830179067,
+          "centerlon": 2.1586,
+          "centerlat": 52.0971,
+          "ellipsis_major_axis_azimuth_angle": 42.949097226613276
+        },
+        "1": {
+          "ellipsis_major_axis": 1000.777275716229,
+          "ellipsis_minor_axis": 968.2121525621327,
+          "centerlon": 2.154314356136322,
+          "centerlat": 52.084770445251465,
+          "ellipsis_major_axis_azimuth_angle": 24.904253590312578
+        },
+        "2": {
+          "ellipsis_major_axis": 233.5300748984846,
+          "ellipsis_minor_axis": 214.344215592615,
+          "centerlon": 2.154694117647058,
+          "centerlat": 52.0863236883943,
+          "ellipsis_major_axis_azimuth_angle": -105.88981229323133
+        },
+        "3": {
+          "ellipsis_major_axis": 230.0882957795386,
+          "ellipsis_minor_axis": 214.85836288906785,
+          "centerlon": 2.1547875198728157,
+          "centerlat": 52.086487360890295,
+          "ellipsis_major_axis_azimuth_angle": -105.97061475719397
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1586,
+            2.154314356136322,
+            2.154694117647058,
+            2.1547875198728157
+          ],
+          "memberlats": [
+            52.0971,
+            52.084770445251465,
+            52.0863236883943,
+            52.086487360890295
+          ],
+          "centerlon": 2.1555913323984237,
+          "centerlat": 52.088668292335186,
+          "distance_from_cluster_centre": [
+            958.4779398170082,
+            442.1156291174994,
+            267.8182286534002,
+            248.64952734649356
+          ],
+          "distance_std": 286.75701856479805,
+          "longest_ellipsis_axis": 1081.3085698812595
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T02:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1512440903810823,
+        "centerlat": 52.07403545019486,
+        "ellipsis_major_axis": 1934.406616473575,
+        "ellipsis_minor_axis": 938.4010656012571,
+        "ellipsis_major_axis_azimuth_angle": 13.386443371304892
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 1269.3283745344686,
+          "ellipsis_minor_axis": 1209.0055717194384,
+          "centerlon": 2.1587,
+          "centerlat": 52.0948,
+          "ellipsis_major_axis_azimuth_angle": -127.69655976005174
+        },
+        "1": {
+          "ellipsis_major_axis": 1000.953076168643,
+          "ellipsis_minor_axis": 956.9407848616199,
+          "centerlon": 2.1462335606575014,
+          "centerlat": 52.06191368408203,
+          "ellipsis_major_axis_azimuth_angle": 27.311544729992875
+        },
+        "2": {
+          "ellipsis_major_axis": 463.4210689039546,
+          "ellipsis_minor_axis": 424.7193555335758,
+          "centerlon": 2.148551033386323,
+          "centerlat": 52.06528982511922,
+          "ellipsis_major_axis_azimuth_angle": -114.91767926806006
+        },
+        "3": {
+          "ellipsis_major_axis": 460.4054932040074,
+          "ellipsis_minor_axis": 425.5163342622235,
+          "centerlon": 2.148987758346584,
+          "centerlat": 52.06554562798091,
+          "ellipsis_major_axis_azimuth_angle": -116.61786332116264
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1587,
+            2.1462335606575014,
+            2.148551033386323,
+            2.148987758346584
+          ],
+          "memberlats": [
+            52.0948,
+            52.06191368408203,
+            52.06528982511922,
+            52.06554562798091
+          ],
+          "centerlon": 2.1506285162401495,
+          "centerlat": 52.07189372045276,
+          "distance_from_cluster_centre": [
+            2609.4933213860754,
+            1149.6750318440656,
+            747.9239707765234,
+            714.7295730575262
+          ],
+          "distance_std": 772.104384248745,
+          "longest_ellipsis_axis": 1269.3283745344686
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T03:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.145676093260261,
+        "centerlat": 52.05604379843995,
+        "ellipsis_major_axis": 3199.3884509033264,
+        "ellipsis_minor_axis": 1092.1320002278364,
+        "ellipsis_major_axis_azimuth_angle": 13.293790248159212
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 1519.5218173045982,
+          "ellipsis_minor_axis": 1444.8967078346664,
+          "centerlon": 2.1592,
+          "centerlat": 52.0932,
+          "ellipsis_major_axis_azimuth_angle": -121.81784590857887
+        },
+        "1": {
+          "ellipsis_major_axis": 1002.3768642693608,
+          "ellipsis_minor_axis": 950.2761376245072,
+          "centerlon": 2.1356759684562685,
+          "centerlat": 52.03448299255371,
+          "ellipsis_major_axis_azimuth_angle": 27.060008377061138
+        },
+        "2": {
+          "ellipsis_major_axis": 696.5416178621701,
+          "ellipsis_minor_axis": 632.7926118448291,
+          "centerlon": 2.1416224165341826,
+          "centerlat": 52.04044069952316,
+          "ellipsis_major_axis_azimuth_angle": -124.07887504802534
+        },
+        "3": {
+          "ellipsis_major_axis": 692.6541363814772,
+          "ellipsis_minor_axis": 632.9754477159128,
+          "centerlon": 2.142651192368838,
+          "centerlat": 52.040764944356106,
+          "ellipsis_major_axis_azimuth_angle": -127.5271027840788
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1592,
+            2.1356759684562685,
+            2.1416224165341826,
+            2.142651192368838
+          ],
+          "memberlats": [
+            52.0932,
+            52.03448299255371,
+            52.04044069952316,
+            52.040764944356106
+          ],
+          "centerlon": 2.144796740538858,
+          "centerlat": 52.052219468983736,
+          "distance_from_cluster_centre": [
+            4661.318984111436,
+            2068.5042542726796,
+            1327.6079575764284,
+            1282.1087038178189
+          ],
+          "distance_std": 1378.9668917453657,
+          "longest_ellipsis_axis": 1519.5218173045982
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T04:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.140613713495601,
+        "centerlat": 52.038275866281815,
+        "ellipsis_major_axis": 4535.931727418204,
+        "ellipsis_minor_axis": 1283.6383369424057,
+        "ellipsis_major_axis_azimuth_angle": 13.15438600114328
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 1800.34324378693,
+          "ellipsis_minor_axis": 1712.1613645287048,
+          "centerlon": 2.16,
+          "centerlat": 52.092,
+          "ellipsis_major_axis_azimuth_angle": -118.13017145785602
+        },
+        "1": {
+          "ellipsis_major_axis": 1012.0318167077847,
+          "ellipsis_minor_axis": 946.5259836629369,
+          "centerlon": 2.1250206590652465,
+          "centerlat": 52.00701416015625,
+          "ellipsis_major_axis_azimuth_angle": 26.315407543480262
+        },
+        "2": {
+          "ellipsis_major_axis": 941.1778307393515,
+          "ellipsis_minor_axis": 852.5653745859655,
+          "centerlon": 2.1358332273449894,
+          "centerlat": 52.01568147853732,
+          "ellipsis_major_axis_azimuth_angle": -131.09370649132575
+        },
+        "3": {
+          "ellipsis_major_axis": 937.7369382291496,
+          "ellipsis_minor_axis": 850.3485694837276,
+          "centerlon": 2.137759062003177,
+          "centerlat": 52.016173529411674,
+          "ellipsis_major_axis_azimuth_angle": 44.89741197191313
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.16,
+            2.1250206590652465,
+            2.1358332273449894,
+            2.137759062003177
+          ],
+          "memberlats": [
+            52.092,
+            52.00701416015625,
+            52.01568147853732,
+            52.016173529411674
+          ],
+          "centerlon": 2.1396650602806906,
+          "centerlat": 52.032718009189395,
+          "distance_from_cluster_centre": [
+            6737.827296911119,
+            3028.7176154071094,
+            1912.432387783398,
+            1844.2787030531715
+          ],
+          "distance_std": 1994.4043858719294,
+          "longest_ellipsis_axis": 1800.34324378693
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T05:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1377301703095246,
+        "centerlat": 52.02383031623763,
+        "ellipsis_major_axis": 5662.548746369662,
+        "ellipsis_minor_axis": 1502.20175747778,
+        "ellipsis_major_axis_azimuth_angle": 12.705780397157923
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 2095.204820606384,
+          "ellipsis_minor_axis": 1994.212051049653,
+          "centerlon": 2.1612,
+          "centerlat": 52.0915,
+          "ellipsis_major_axis_azimuth_angle": -115.39399513382887
+        },
+        "1": {
+          "ellipsis_major_axis": 1018.9112869272373,
+          "ellipsis_minor_axis": 944.832692190807,
+          "centerlon": 2.11731027135849,
+          "centerlat": 51.98446907501221,
+          "ellipsis_major_axis_azimuth_angle": 28.30654443109495
+        },
+        "2": {
+          "ellipsis_major_axis": 1181.0272623700719,
+          "ellipsis_minor_axis": 1074.4098229589301,
+          "centerlon": 2.133204213036566,
+          "centerlat": 51.99532798092215,
+          "ellipsis_major_axis_azimuth_angle": -131.65144795964113
+        },
+        "3": {
+          "ellipsis_major_axis": 1179.4971414026923,
+          "ellipsis_minor_axis": 1069.7051844489686,
+          "centerlon": 2.1362835453100106,
+          "centerlat": 51.99609435612081,
+          "ellipsis_major_axis_azimuth_angle": 43.18028384706872
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.11731027135849,
+            2.133204213036566,
+            2.1362835453100106
+          ],
+          "memberlats": [
+            51.98446907501221,
+            51.99532798092215,
+            51.99609435612081
+          ],
+          "centerlon": 2.128932676568356,
+          "centerlat": 51.99196380401838,
+          "distance_from_cluster_centre": [
+            1152.349829982833,
+            474.8375588325897,
+            681.3663876078796
+          ],
+          "distance_std": 283.5298216072625,
+          "longest_ellipsis_axis": 1181.0272623700719
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1612
+          ],
+          "memberlats": [
+            52.0915
+          ],
+          "centerlon": 2.161155939102173,
+          "centerlat": 52.091468811035156,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 2095.204820606384
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T06:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1385692347248924,
+        "centerlat": 52.01566963303725,
+        "ellipsis_major_axis": 6338.198116463802,
+        "ellipsis_minor_axis": 1728.1214616237855,
+        "ellipsis_major_axis_azimuth_angle": 11.828639998348763
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 2395.8653961686896,
+          "ellipsis_minor_axis": 2282.1075217347225,
+          "centerlon": 2.1626,
+          "centerlat": 52.0916,
+          "ellipsis_major_axis_azimuth_angle": -112.96503097681625
+        },
+        "1": {
+          "ellipsis_major_axis": 1026.909017444989,
+          "ellipsis_minor_axis": 949.0710891127977,
+          "centerlon": 2.115304176425934,
+          "centerlat": 51.97091533203125,
+          "ellipsis_major_axis_azimuth_angle": 28.677012962235437
+        },
+        "2": {
+          "ellipsis_major_axis": 1391.4827769137617,
+          "ellipsis_minor_axis": 1283.438665394927,
+          "centerlon": 2.1356434022257575,
+          "centerlat": 51.98419570747219,
+          "ellipsis_major_axis_azimuth_angle": -131.33540312900277
+        },
+        "3": {
+          "ellipsis_major_axis": 1391.7354723924998,
+          "ellipsis_minor_axis": 1274.2438320940391,
+          "centerlon": 2.1400569952305237,
+          "centerlat": 51.98532782193965,
+          "ellipsis_major_axis_azimuth_angle": 41.800109707074796
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.115304176425934,
+            2.1356434022257575,
+            2.1400569952305237
+          ],
+          "memberlats": [
+            51.97091533203125,
+            51.98419570747219,
+            51.98532782193965
+          ],
+          "centerlon": 2.1303348579607384,
+          "centerlat": 51.9801462871477,
+          "distance_from_cluster_centre": [
+            1453.7952629261952,
+            578.7252965345036,
+            880.4973660533681
+          ],
+          "distance_std": 362.93315983666884,
+          "longest_ellipsis_axis": 1391.7354723924998
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1626
+          ],
+          "memberlats": [
+            52.0916
+          ],
+          "centerlon": 2.1625564098358154,
+          "centerlat": 52.091556549072266,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 2395.8653961686896
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T07:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.143823012409545,
+        "centerlat": 52.01508667829513,
+        "ellipsis_major_axis": 6467.53463700689,
+        "ellipsis_minor_axis": 1955.0044631563535,
+        "ellipsis_major_axis_azimuth_angle": 10.34037287993175
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 2697.81324010743,
+          "ellipsis_minor_axis": 2572.083319948707,
+          "centerlon": 2.1642,
+          "centerlat": 52.0921,
+          "ellipsis_major_axis_azimuth_angle": -110.66506492484496
+        },
+        "1": {
+          "ellipsis_major_axis": 1036.6486717394412,
+          "ellipsis_minor_axis": 955.0887223659295,
+          "centerlon": 2.120008339691162,
+          "centerlat": 51.96815540924072,
+          "ellipsis_major_axis_azimuth_angle": 25.95805493159412
+        },
+        "2": {
+          "ellipsis_major_axis": 1571.8862598994306,
+          "ellipsis_minor_axis": 1495.377087289866,
+          "centerlon": 2.1445096184419703,
+          "centerlat": 51.98443736089034,
+          "ellipsis_major_axis_azimuth_angle": 39.224407966269155
+        },
+        "3": {
+          "ellipsis_major_axis": 1579.093902648745,
+          "ellipsis_minor_axis": 1477.6178745502295,
+          "centerlon": 2.1499280604133575,
+          "centerlat": 51.985906756756755,
+          "ellipsis_major_axis_azimuth_angle": 31.410996295753762
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.120008339691162,
+            2.1445096184419703,
+            2.1499280604133575
+          ],
+          "memberlats": [
+            51.96815540924072,
+            51.98443736089034,
+            51.985906756756755
+          ],
+          "centerlon": 2.13814867284883,
+          "centerlat": 51.979499842295944,
+          "distance_from_cluster_centre": [
+            1770.665470726471,
+            700.8631622709748,
+            1076.2518564441248
+          ],
+          "distance_std": 443.17088735490466,
+          "longest_ellipsis_axis": 1579.093902648745
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1642
+          ],
+          "memberlats": [
+            52.0921
+          ],
+          "centerlon": 2.164219617843628,
+          "centerlat": 52.092063903808594,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 2697.81324010743
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T08:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1523431440014353,
+        "centerlat": 52.02102967141046,
+        "ellipsis_major_axis": 6154.3332388113095,
+        "ellipsis_minor_axis": 2185.8863756044148,
+        "ellipsis_major_axis_azimuth_angle": 8.263029794385375
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3001.0029223320107,
+          "ellipsis_minor_axis": 2862.9611352657257,
+          "centerlon": 2.1661,
+          "centerlat": 52.0932,
+          "ellipsis_major_axis_azimuth_angle": -108.73816887072985
+        },
+        "1": {
+          "ellipsis_major_axis": 1045.7229720997304,
+          "ellipsis_minor_axis": 965.0495290116195,
+          "centerlon": 2.1298571024894715,
+          "centerlat": 51.97483763122558,
+          "ellipsis_major_axis_azimuth_angle": 21.896082124897987
+        },
+        "2": {
+          "ellipsis_major_axis": 1761.0882928577244,
+          "ellipsis_minor_axis": 1696.2395973313207,
+          "centerlon": 2.15808497615263,
+          "centerlat": 51.99432003179646,
+          "ellipsis_major_axis_azimuth_angle": 10.395794370670046
+        },
+        "3": {
+          "ellipsis_major_axis": 1774.3494358665891,
+          "ellipsis_minor_axis": 1676.550538927702,
+          "centerlon": 2.1640027821939607,
+          "centerlat": 51.99603282988869,
+          "ellipsis_major_axis_azimuth_angle": 12.597869741504041
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1298571024894715,
+            2.15808497615263,
+            2.1640027821939607
+          ],
+          "memberlats": [
+            51.97483763122558,
+            51.99432003179646,
+            51.99603282988869
+          ],
+          "centerlon": 2.1506482869453545,
+          "centerlat": 51.98839683097024,
+          "distance_from_cluster_centre": [
+            2073.8225109457667,
+            832.5144826519338,
+            1247.8170655799518
+          ],
+          "distance_std": 515.9249355679763,
+          "longest_ellipsis_axis": 1774.3494358665891
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1661
+          ],
+          "memberlats": [
+            52.0932
+          ],
+          "centerlon": 2.166072130203247,
+          "centerlat": 52.09323501586914,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3001.0029223320107
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T09:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1621563004681503,
+        "centerlat": 52.031267514984144,
+        "ellipsis_major_axis": 5601.105062574213,
+        "ellipsis_minor_axis": 2421.299306183661,
+        "ellipsis_major_axis_azimuth_angle": 5.755397827866204
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3304.1092397388807,
+          "ellipsis_minor_axis": 3153.0544566223243,
+          "centerlon": 2.1681,
+          "centerlat": 52.0949,
+          "ellipsis_major_axis_azimuth_angle": -106.69697594716445
+        },
+        "1": {
+          "ellipsis_major_axis": 1067.7948243834687,
+          "ellipsis_minor_axis": 981.378283360917,
+          "centerlon": 2.1421990734100342,
+          "centerlat": 51.98790940551758,
+          "ellipsis_major_axis_azimuth_angle": 15.19490403661166
+        },
+        "2": {
+          "ellipsis_major_axis": 1976.276370216312,
+          "ellipsis_minor_axis": 1890.3961223982014,
+          "centerlon": 2.173021065182831,
+          "centerlat": 52.010194356120884,
+          "ellipsis_major_axis_azimuth_angle": -9.228357393066517
+        },
+        "3": {
+          "ellipsis_major_axis": 1987.7614537441625,
+          "ellipsis_minor_axis": 1880.0836476981851,
+          "centerlon": 2.1791124006359297,
+          "centerlat": 52.01208926868042,
+          "ellipsis_major_axis_azimuth_angle": -2.6397591841912345
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1681,
+            2.1421990734100342,
+            2.173021065182831,
+            2.1791124006359297
+          ],
+          "memberlats": [
+            52.0949,
+            51.98790940551758,
+            52.010194356120884,
+            52.01208926868042
+          ],
+          "centerlon": 2.1656118003498013,
+          "centerlat": 52.026268045177375,
+          "distance_from_cluster_centre": [
+            7631.125421290277,
+            4556.403717903912,
+            1857.836355584267,
+            1827.3373770017172
+          ],
+          "distance_std": 2387.463807869912,
+          "longest_ellipsis_axis": 3304.1092397388807
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T10:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1714499931989164,
+        "centerlat": 52.043172397419845,
+        "ellipsis_major_axis": 5022.031459378722,
+        "ellipsis_minor_axis": 2648.635147155442,
+        "ellipsis_major_axis_azimuth_angle": 2.9161612981203575
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3604.7561745338094,
+          "ellipsis_minor_axis": 3441.161110709826,
+          "centerlon": 2.1703,
+          "centerlat": 52.097,
+          "ellipsis_major_axis_azimuth_angle": -104.58902745881608
+        },
+        "1": {
+          "ellipsis_major_axis": 1090.8434686426501,
+          "ellipsis_minor_axis": 994.6541653151069,
+          "centerlon": 2.1546488176345826,
+          "centerlat": 52.003758795166014,
+          "ellipsis_major_axis_azimuth_angle": 9.13246503745603
+        },
+        "2": {
+          "ellipsis_major_axis": 2197.7782184528182,
+          "ellipsis_minor_axis": 2086.063973660815,
+          "centerlon": 2.186278457869631,
+          "centerlat": 52.02783887122415,
+          "ellipsis_major_axis_azimuth_angle": -22.29773391785568
+        },
+        "3": {
+          "ellipsis_major_axis": 2210.5412165774737,
+          "ellipsis_minor_axis": 2082.775593663731,
+          "centerlon": 2.1923627980922094,
+          "centerlat": 52.02978720190772,
+          "ellipsis_major_axis_azimuth_angle": -15.581608754751983
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1703,
+            2.1546488176345826,
+            2.186278457869631,
+            2.1923627980922094
+          ],
+          "memberlats": [
+            52.097,
+            52.003758795166014,
+            52.02783887122415,
+            52.02978720190772
+          ],
+          "centerlon": 2.175889175465451,
+          "centerlat": 52.03959720126636,
+          "distance_from_cluster_centre": [
+            6394.896793065776,
+            4241.806252669935,
+            1488.1400697637682,
+            1568.3624867506858
+          ],
+          "distance_std": 2042.4236289187281,
+          "longest_ellipsis_axis": 3604.7561745338094
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T11:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1787807729307676,
+        "centerlat": 52.05425752951889,
+        "ellipsis_major_axis": 4596.4906171467255,
+        "ellipsis_minor_axis": 2852.5411705557103,
+        "ellipsis_major_axis_azimuth_angle": 0.10374364677591075
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3897.4039771494768,
+          "ellipsis_minor_axis": 3726.6455182311597,
+          "centerlon": 2.1725,
+          "centerlat": 52.0997,
+          "ellipsis_major_axis_azimuth_angle": -102.55477718308657
+        },
+        "1": {
+          "ellipsis_major_axis": 1112.6972310990286,
+          "ellipsis_minor_axis": 1000.1398086594775,
+          "centerlon": 2.165019826889038,
+          "centerlat": 52.01858515472412,
+          "ellipsis_major_axis_azimuth_angle": 3.5883166957557933
+        },
+        "2": {
+          "ellipsis_major_axis": 2424.6467619728955,
+          "ellipsis_minor_axis": 2265.8072133537144,
+          "centerlon": 2.195734658187601,
+          "centerlat": 52.04361637519874,
+          "ellipsis_major_axis_azimuth_angle": -29.930352271248807
+        },
+        "3": {
+          "ellipsis_major_axis": 2441.2030166778245,
+          "ellipsis_minor_axis": 2269.235665760223,
+          "centerlon": 2.2017367249602526,
+          "centerlat": 52.04546025437201,
+          "ellipsis_major_axis_azimuth_angle": -23.26338080002847
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1725,
+            2.165019826889038,
+            2.195734658187601,
+            2.2017367249602526
+          ],
+          "memberlats": [
+            52.0997,
+            52.01858515472412,
+            52.04361637519874,
+            52.04546025437201
+          ],
+          "centerlon": 2.183737822307502,
+          "centerlat": 52.051828280241196,
+          "distance_from_cluster_centre": [
+            5373.247501047382,
+            3911.9410364206547,
+            1227.543322534862,
+            1419.9840946861507
+          ],
+          "distance_std": 1739.31461386251,
+          "longest_ellipsis_axis": 3897.4039771494768
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T12:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.183644026443081,
+        "centerlat": 52.06228128999605,
+        "ellipsis_major_axis": 4444.216979625147,
+        "ellipsis_minor_axis": 3039.4201992392927,
+        "ellipsis_major_axis_azimuth_angle": -1.87712041399368
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4181.475786071216,
+          "ellipsis_minor_axis": 4008.6344344021195,
+          "centerlon": 2.1747,
+          "centerlat": 52.1029,
+          "ellipsis_major_axis_azimuth_angle": -100.16035740974871
+        },
+        "1": {
+          "ellipsis_major_axis": 1138.635108451335,
+          "ellipsis_minor_axis": 1005.1835861997812,
+          "centerlon": 2.17190099401474,
+          "centerlat": 52.02859120483399,
+          "ellipsis_major_axis_azimuth_angle": -0.1251149521347088
+        },
+        "2": {
+          "ellipsis_major_axis": 2646.4280128959294,
+          "ellipsis_minor_axis": 2442.029259658508,
+          "centerlon": 2.201238314785378,
+          "centerlat": 52.05458561208265,
+          "ellipsis_major_axis_azimuth_angle": -32.78289138927039
+        },
+        "3": {
+          "ellipsis_major_axis": 2669.505067201207,
+          "ellipsis_minor_axis": 2454.410180736796,
+          "centerlon": 2.2072100953895086,
+          "centerlat": 52.05621470588228,
+          "ellipsis_major_axis_azimuth_angle": -25.599347101845524
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1747,
+            2.17190099401474,
+            2.201238314785378,
+            2.2072100953895086
+          ],
+          "memberlats": [
+            52.1029,
+            52.02859120483399,
+            52.05458561208265,
+            52.05621470588228
+          ],
+          "centerlon": 2.188755978786359,
+          "centerlat": 52.060579921105,
+          "distance_from_cluster_centre": [
+            4806.217020076456,
+            3739.1018004920807,
+            1082.8663402029727,
+            1351.838672507055
+          ],
+          "distance_std": 1576.4232284593359,
+          "longest_ellipsis_axis": 4181.475786071216
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T13:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1860987936763197,
+        "centerlat": 52.065377960577,
+        "ellipsis_major_axis": 4622.941323741707,
+        "ellipsis_minor_axis": 3216.3235614755345,
+        "ellipsis_major_axis_azimuth_angle": -2.269353170414888
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4454.638306029228,
+          "ellipsis_minor_axis": 4283.025611567271,
+          "centerlon": 2.1769,
+          "centerlat": 52.1066,
+          "ellipsis_major_axis_azimuth_angle": -96.93820610689545
+        },
+        "1": {
+          "ellipsis_major_axis": 1159.3651562324699,
+          "ellipsis_minor_axis": 1009.93768528195,
+          "centerlon": 2.1747944507598875,
+          "centerlat": 52.030693110656735,
+          "ellipsis_major_axis_azimuth_angle": -1.9200735944342568
+        },
+        "2": {
+          "ellipsis_major_axis": 2858.5210085608296,
+          "ellipsis_minor_axis": 2620.5641054591397,
+          "centerlon": 2.2033900635930057,
+          "centerlat": 52.058173290937965,
+          "ellipsis_major_axis_azimuth_angle": -34.08461454570397
+        },
+        "3": {
+          "ellipsis_major_axis": 2888.8600760270183,
+          "ellipsis_minor_axis": 2643.169760733731,
+          "centerlon": 2.209537917329095,
+          "centerlat": 52.0595144674086,
+          "ellipsis_major_axis_azimuth_angle": -26.414949556705096
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1769,
+            2.1747944507598875,
+            2.2033900635930057,
+            2.209537917329095
+          ],
+          "memberlats": [
+            52.1066,
+            52.030693110656735,
+            52.058173290937965,
+            52.0595144674086
+          ],
+          "centerlon": 2.191157552367061,
+          "centerlat": 52.06373706295395,
+          "distance_from_cluster_centre": [
+            4861.02424528064,
+            3840.93874090208,
+            1040.2426065111151,
+            1341.4162426257944
+          ],
+          "distance_std": 1624.2075832430176,
+          "longest_ellipsis_axis": 4454.638306029228
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T14:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1860618740995617,
+        "centerlat": 52.062461912194735,
+        "ellipsis_major_axis": 5170.893511455299,
+        "ellipsis_minor_axis": 3381.7862064624383,
+        "ellipsis_major_axis_azimuth_angle": -1.029922934802812
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4715.40560807558,
+          "ellipsis_minor_axis": 4543.706790247953,
+          "centerlon": 2.1792,
+          "centerlat": 52.111,
+          "ellipsis_major_axis_azimuth_angle": -92.41657120351351
+        },
+        "1": {
+          "ellipsis_major_axis": 1166.8091116945702,
+          "ellipsis_minor_axis": 1017.6958798993571,
+          "centerlon": 2.17371932926178,
+          "centerlat": 52.02330699157715,
+          "ellipsis_major_axis_azimuth_angle": -2.6038754409162266
+        },
+        "2": {
+          "ellipsis_major_axis": 3056.049407102253,
+          "ellipsis_minor_axis": 2804.9774163455763,
+          "centerlon": 2.201919157392686,
+          "centerlat": 52.05264682034984,
+          "ellipsis_major_axis_azimuth_angle": -35.35527978248274
+        },
+        "3": {
+          "ellipsis_major_axis": 3093.0004136085417,
+          "ellipsis_minor_axis": 2837.444581933713,
+          "centerlon": 2.2084523052464258,
+          "centerlat": 52.05362623211449,
+          "ellipsis_major_axis_azimuth_angle": -27.00303990659245
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1792,
+            2.17371932926178,
+            2.201919157392686,
+            2.2084523052464258
+          ],
+          "memberlats": [
+            52.111,
+            52.02330699157715,
+            52.05264682034984,
+            52.05362623211449
+          ],
+          "centerlon": 2.190813204338138,
+          "centerlat": 52.06014311892053,
+          "distance_from_cluster_centre": [
+            5709.95474517668,
+            4259.577432188703,
+            1127.5638841844072,
+            1406.9720602016926
+          ],
+          "distance_std": 1930.7138502074692,
+          "longest_ellipsis_axis": 4715.40560807558
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T15:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1834034779849114,
+        "centerlat": 52.0541595445837,
+        "ellipsis_major_axis": 6098.201700884497,
+        "ellipsis_minor_axis": 3538.037265570752,
+        "ellipsis_major_axis_azimuth_angle": 1.2642046012354626
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4965.146976373837,
+          "ellipsis_minor_axis": 4788.940146905986,
+          "centerlon": 2.1814,
+          "centerlat": 52.116,
+          "ellipsis_major_axis_azimuth_angle": -86.73528930094062
+        },
+        "1": {
+          "ellipsis_major_axis": 1165.2136328267409,
+          "ellipsis_minor_axis": 1026.1334908900135,
+          "centerlon": 2.1686536493301394,
+          "centerlat": 52.00742082824707,
+          "ellipsis_major_axis_azimuth_angle": -3.9676286681337842
+        },
+        "2": {
+          "ellipsis_major_axis": 3237.7734424769983,
+          "ellipsis_minor_axis": 2995.226134787742,
+          "centerlon": 2.1964966613672483,
+          "centerlat": 52.03891319554849,
+          "ellipsis_major_axis_azimuth_angle": -35.636156963436065
+        },
+        "3": {
+          "ellipsis_major_axis": 3284.051387063865,
+          "ellipsis_minor_axis": 3036.926022632363,
+          "centerlon": 2.203568203497621,
+          "centerlat": 52.039442050874364,
+          "ellipsis_major_axis_azimuth_angle": -26.13246611374359
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1814,
+            2.1686536493301394,
+            2.1964966613672483,
+            2.203568203497621
+          ],
+          "memberlats": [
+            52.116,
+            52.00742082824707,
+            52.03891319554849,
+            52.039442050874364
+          ],
+          "centerlon": 2.1875342928744663,
+          "centerlat": 52.05045193034961,
+          "distance_from_cluster_centre": [
+            7304.095812087468,
+            4956.126895701606,
+            1421.9374131680684,
+            1643.5330100139038
+          ],
+          "distance_std": 2445.2453207321405,
+          "longest_ellipsis_axis": 4965.146976373837
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T16:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1788698845473293,
+        "centerlat": 52.042886213058786,
+        "ellipsis_major_axis": 7309.878625909674,
+        "ellipsis_minor_axis": 3693.358369826916,
+        "ellipsis_major_axis_azimuth_angle": 3.6322713734738272
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5206.815456892806,
+          "ellipsis_minor_axis": 5017.305679995895,
+          "centerlon": 2.1837,
+          "centerlat": 52.1215,
+          "ellipsis_major_axis_azimuth_angle": -80.51009536395043
+        },
+        "1": {
+          "ellipsis_major_axis": 1170.3692703419126,
+          "ellipsis_minor_axis": 1038.8707606996813,
+          "centerlon": 2.160445559978485,
+          "centerlat": 51.986574111938474,
+          "ellipsis_major_axis_azimuth_angle": -3.583078462642561
+        },
+        "2": {
+          "ellipsis_major_axis": 3402.928574654875,
+          "ellipsis_minor_axis": 3182.3880500444116,
+          "centerlon": 2.1887692368839446,
+          "centerlat": 52.02067845786962,
+          "ellipsis_major_axis_azimuth_angle": -35.45977059420477
+        },
+        "3": {
+          "ellipsis_major_axis": 3465.210975940575,
+          "ellipsis_minor_axis": 3234.1494665254486,
+          "centerlon": 2.1959821144674034,
+          "centerlat": 52.02066685214631,
+          "ellipsis_major_axis_azimuth_angle": -23.232311918414325
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.160445559978485,
+            2.1887692368839446,
+            2.1959821144674034
+          ],
+          "memberlats": [
+            51.986574111938474,
+            52.02067845786962,
+            52.02066685214631
+          ],
+          "centerlon": 2.181732303776611,
+          "centerlat": 52.0093064739848,
+          "distance_from_cluster_centre": [
+            2917.7352139598775,
+            1353.1050304355138,
+            1595.8437361759834
+          ],
+          "distance_std": 687.5388287619131,
+          "longest_ellipsis_axis": 3465.210975940575
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1837
+          ],
+          "memberlats": [
+            52.1215
+          ],
+          "centerlon": 2.183701753616333,
+          "centerlat": 52.12153244018555,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5206.815456892806
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T17:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.174172740170523,
+        "centerlat": 52.03220416538387,
+        "ellipsis_major_axis": 8568.310767621651,
+        "ellipsis_minor_axis": 3852.325399438226,
+        "ellipsis_major_axis_azimuth_angle": 5.405136522340172
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5442.32692601827,
+          "ellipsis_minor_axis": 5227.5903773722375,
+          "centerlon": 2.186,
+          "centerlat": 52.1277,
+          "ellipsis_major_axis_azimuth_angle": -74.61374593831408
+        },
+        "1": {
+          "ellipsis_major_axis": 1160.1579856247492,
+          "ellipsis_minor_axis": 1048.6619764435836,
+          "centerlon": 2.151327323055267,
+          "centerlat": 51.96617320709228,
+          "ellipsis_major_axis_azimuth_angle": -2.506359809999367
+        },
+        "2": {
+          "ellipsis_major_axis": 3539.6758178031196,
+          "ellipsis_minor_axis": 3343.866787714469,
+          "centerlon": 2.181712321144677,
+          "centerlat": 52.00319912559623,
+          "ellipsis_major_axis_azimuth_angle": -39.15235455306015
+        },
+        "3": {
+          "ellipsis_major_axis": 3637.294927330396,
+          "ellipsis_minor_axis": 3423.2801191477374,
+          "centerlon": 2.1884872019077926,
+          "centerlat": 52.002590143084376,
+          "ellipsis_major_axis_azimuth_angle": -20.900272146333123
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.151327323055267,
+            2.181712321144677,
+            2.1884872019077926
+          ],
+          "memberlats": [
+            51.96617320709228,
+            52.00319912559623,
+            52.002590143084376
+          ],
+          "centerlon": 2.173842282035912,
+          "centerlat": 51.990654158590964,
+          "distance_from_cluster_centre": [
+            3128.603293002921,
+            1495.3801877917404,
+            1663.3731261706964
+          ],
+          "distance_std": 733.5256399772294,
+          "longest_ellipsis_axis": 3637.294927330396
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.186
+          ],
+          "memberlats": [
+            52.1277
+          ],
+          "centerlon": 2.186023235321045,
+          "centerlat": 52.127723693847656,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5442.32692601827
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T18:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1717891356311876,
+        "centerlat": 52.02556709924833,
+        "ellipsis_major_axis": 9601.526482424011,
+        "ellipsis_minor_axis": 4016.858998685129,
+        "ellipsis_major_axis_azimuth_angle": 6.238072460746139
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5671.138260133793,
+          "ellipsis_minor_axis": 5417.348249075889,
+          "centerlon": 2.1884,
+          "centerlat": 52.1345,
+          "ellipsis_major_axis_azimuth_angle": -69.69832830466476
+        },
+        "1": {
+          "ellipsis_major_axis": 1151.7692548837615,
+          "ellipsis_minor_axis": 1067.816794164198,
+          "centerlon": 2.14501720867157,
+          "centerlat": 51.95136282196045,
+          "ellipsis_major_axis_azimuth_angle": -3.2244814875267593
+        },
+        "2": {
+          "ellipsis_major_axis": 3649.8528836897067,
+          "ellipsis_minor_axis": 3439.8949107236635,
+          "centerlon": 2.1788374403815545,
+          "centerlat": 51.9916282193959,
+          "ellipsis_major_axis_azimuth_angle": -50.58952594181096
+        },
+        "3": {
+          "ellipsis_major_axis": 3801.0914933412637,
+          "ellipsis_minor_axis": 3597.2091419679386,
+          "centerlon": 2.1849638314785365,
+          "centerlat": 51.990460174880766,
+          "ellipsis_major_axis_azimuth_angle": -25.204224950948856
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.14501720867157,
+            2.1788374403815545,
+            2.1849638314785365
+          ],
+          "memberlats": [
+            51.95136282196045,
+            51.9916282193959,
+            51.990460174880766
+          ],
+          "centerlon": 2.1696061601772203,
+          "centerlat": 51.97781707207904,
+          "distance_from_cluster_centre": [
+            3389.828402883888,
+            1660.7558174815388,
+            1755.7211409237705
+          ],
+          "distance_std": 793.6565841328802,
+          "longest_ellipsis_axis": 3801.0914933412637
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1884
+          ],
+          "memberlats": [
+            52.1345
+          ],
+          "centerlon": 2.188384532928467,
+          "centerlat": 52.134525299072266,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5671.138260133793
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T19:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1734514363266295,
+        "centerlat": 52.02498028573873,
+        "ellipsis_major_axis": 10239.919196913479,
+        "ellipsis_minor_axis": 4175.834949349889,
+        "ellipsis_major_axis_azimuth_angle": 6.083068038683791
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5883.223828778519,
+          "ellipsis_minor_axis": 5576.84365852631,
+          "centerlon": 2.1907,
+          "centerlat": 52.1419,
+          "ellipsis_major_axis_azimuth_angle": -65.93915882112913
+        },
+        "1": {
+          "ellipsis_major_axis": 1153.5228445248206,
+          "ellipsis_minor_axis": 1093.2006502461118,
+          "centerlon": 2.1442458000183104,
+          "centerlat": 51.945127767944335,
+          "ellipsis_major_axis_azimuth_angle": -1.5696732237956894
+        },
+        "2": {
+          "ellipsis_major_axis": 3726.5277342458644,
+          "ellipsis_minor_axis": 3448.1569754914512,
+          "centerlon": 2.1825197138314802,
+          "centerlat": 51.988940063593006,
+          "ellipsis_major_axis_azimuth_angle": -60.18590605950794
+        },
+        "3": {
+          "ellipsis_major_axis": 3960.8121512103394,
+          "ellipsis_minor_axis": 3730.9374581200077,
+          "centerlon": 2.1881142289348183,
+          "centerlat": 51.98723076311607,
+          "ellipsis_major_axis_azimuth_angle": -34.65783653066353
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1442458000183104,
+            2.1825197138314802,
+            2.1881142289348183
+          ],
+          "memberlats": [
+            51.945127767944335,
+            51.988940063593006,
+            51.98723076311607
+          ],
+          "centerlon": 2.171626580928203,
+          "centerlat": 51.973766198217795,
+          "distance_from_cluster_centre": [
+            3696.027872188655,
+            1844.832635708892,
+            1875.2859620350887
+          ],
+          "distance_std": 865.573176317247,
+          "longest_ellipsis_axis": 3960.8121512103394
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1907
+          ],
+          "memberlats": [
+            52.1419
+          ],
+          "centerlon": 2.1907143592834473,
+          "centerlat": 52.14192581176758,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5883.223828778519
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T20:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1788926877303982,
+        "centerlat": 52.03096676286227,
+        "ellipsis_major_axis": 10436.580273205598,
+        "ellipsis_minor_axis": 4294.698412702806,
+        "ellipsis_major_axis_azimuth_angle": 5.198459502733272
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 6035.351722134808,
+          "ellipsis_minor_axis": 5654.982198969814,
+          "centerlon": 2.1931,
+          "centerlat": 52.1502,
+          "ellipsis_major_axis_azimuth_angle": -63.91038868365888
+        },
+        "1": {
+          "ellipsis_major_axis": 1169.440972516551,
+          "ellipsis_minor_axis": 1125.797912721458,
+          "centerlon": 2.1490726871490478,
+          "centerlat": 51.94835744781494,
+          "ellipsis_major_axis_azimuth_angle": -4.84882922376255
+        },
+        "2": {
+          "ellipsis_major_axis": 3758.5938156106863,
+          "ellipsis_minor_axis": 3396.0444120944326,
+          "centerlon": 2.1917895866454695,
+          "centerlat": 51.99571295707473,
+          "ellipsis_major_axis_azimuth_angle": -64.34906468542852
+        },
+        "3": {
+          "ellipsis_major_axis": 4073.0652071079408,
+          "ellipsis_minor_axis": 3766.4222866559694,
+          "centerlon": 2.196982114467409,
+          "centerlat": 51.99340858505558,
+          "ellipsis_major_axis_azimuth_angle": -41.93165135631568
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1490726871490478,
+            2.1917895866454695,
+            2.196982114467409
+          ],
+          "memberlats": [
+            51.94835744781494,
+            51.99571295707473,
+            51.99340858505558
+          ],
+          "centerlon": 2.1792814627539756,
+          "centerlat": 51.97915966331508,
+          "distance_from_cluster_centre": [
+            4001.837766223902,
+            2030.1729626325546,
+            1994.8953562364754
+          ],
+          "distance_std": 937.877298551248,
+          "longest_ellipsis_axis": 4073.0652071079408
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1931
+          ],
+          "memberlats": [
+            52.1502
+          ],
+          "centerlon": 2.193122148513794,
+          "centerlat": 52.150203704833984,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 6035.351722134808
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T21:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1863585262023495,
+        "centerlat": 52.04287770159094,
+        "ellipsis_major_axis": 10234.13439104241,
+        "ellipsis_minor_axis": 4302.174723334098,
+        "ellipsis_major_axis_azimuth_angle": 3.83744747389278
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5981.052077352347,
+          "ellipsis_minor_axis": 5525.699692789948,
+          "centerlon": 2.195,
+          "centerlat": 52.1596,
+          "ellipsis_major_axis_azimuth_angle": -65.50201295790862
+        },
+        "1": {
+          "ellipsis_major_axis": 1190.4023089844002,
+          "ellipsis_minor_axis": 1156.109165948508,
+          "centerlon": 2.15761970911026,
+          "centerlat": 51.96020021362305,
+          "ellipsis_major_axis_azimuth_angle": -9.58877890594863
+        },
+        "2": {
+          "ellipsis_major_axis": 3741.2128808292873,
+          "ellipsis_minor_axis": 3296.570812126672,
+          "centerlon": 2.2038798887122404,
+          "centerlat": 52.01059340222573,
+          "ellipsis_major_axis_azimuth_angle": -66.48809488439451
+        },
+        "3": {
+          "ellipsis_major_axis": 4086.8060434387976,
+          "ellipsis_minor_axis": 3677.0976210003428,
+          "centerlon": 2.2087224165341803,
+          "centerlat": 52.00755190779021,
+          "ellipsis_major_axis_azimuth_angle": -46.58957089812782
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.15761970911026,
+            2.2038798887122404,
+            2.2087224165341803
+          ],
+          "memberlats": [
+            51.96020021362305,
+            52.01059340222573,
+            52.00755190779021
+          ],
+          "centerlon": 2.19007400478556,
+          "centerlat": 51.992781841212995,
+          "distance_from_cluster_centre": [
+            4250.521899827458,
+            2194.493276065335,
+            2080.1766513481234
+          ],
+          "distance_std": 997.2584915107533,
+          "longest_ellipsis_axis": 4086.8060434387976
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.195
+          ],
+          "memberlats": [
+            52.1596
+          ],
+          "centerlon": 2.195024251937866,
+          "centerlat": 52.15959548950195,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5981.052077352347
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T22:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1940255300443945,
+        "centerlat": 52.058448585483454,
+        "ellipsis_major_axis": 9806.642028146101,
+        "ellipsis_minor_axis": 4245.837854130001,
+        "ellipsis_major_axis_azimuth_angle": 2.183168880999574
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5828.580331875718,
+          "ellipsis_minor_axis": 5321.614749825734,
+          "centerlon": 2.1963,
+          "centerlat": 52.1698,
+          "ellipsis_major_axis_azimuth_angle": -66.21958755343906
+        },
+        "1": {
+          "ellipsis_major_axis": 1219.2206898631084,
+          "ellipsis_minor_axis": 1178.661472463888,
+          "centerlon": 2.1675412281036377,
+          "centerlat": 51.977745822143554,
+          "ellipsis_major_axis_azimuth_angle": -17.046415105265623
+        },
+        "2": {
+          "ellipsis_major_axis": 3698.4075368517097,
+          "ellipsis_minor_axis": 3178.354875298288,
+          "centerlon": 2.2158971383147863,
+          "centerlat": 52.02988728139904,
+          "ellipsis_major_axis_azimuth_angle": -68.72174606888063
+        },
+        "3": {
+          "ellipsis_major_axis": 4014.265946666483,
+          "ellipsis_minor_axis": 3528.408591648523,
+          "centerlon": 2.2203554848966665,
+          "centerlat": 52.026162241653545,
+          "ellipsis_major_axis_azimuth_angle": -49.90335918266487
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1675412281036377,
+            2.2158971383147863,
+            2.2203554848966665
+          ],
+          "memberlats": [
+            51.977745822143554,
+            52.02988728139904,
+            52.026162241653545
+          ],
+          "centerlon": 2.2012646171050303,
+          "centerlat": 52.01126511506538,
+          "distance_from_cluster_centre": [
+            4384.405290032208,
+            2300.0604893668797,
+            2109.640371431175
+          ],
+          "distance_std": 1030.3887348565318,
+          "longest_ellipsis_axis": 4014.265946666483
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1963
+          ],
+          "memberlats": [
+            52.1698
+          ],
+          "centerlon": 2.196255922317505,
+          "centerlat": 52.16975784301758,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5828.580331875718
+        }
+      }
+    },
+    {
+      "time": "2023-12-06T23:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.2005634680120916,
+        "centerlat": 52.07464188739072,
+        "ellipsis_major_axis": 9389.696253384018,
+        "ellipsis_minor_axis": 4167.5290906673445,
+        "ellipsis_major_axis_azimuth_angle": 0.6164970194730017
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5665.376766828269,
+          "ellipsis_minor_axis": 5107.547921531724,
+          "centerlon": 2.1974,
+          "centerlat": 52.1807,
+          "ellipsis_major_axis_azimuth_angle": -66.81764386148132
+        },
+        "1": {
+          "ellipsis_major_axis": 1255.821477530638,
+          "ellipsis_minor_axis": 1203.4998100529328,
+          "centerlon": 2.1767298753738404,
+          "centerlat": 51.99635287628174,
+          "ellipsis_major_axis_azimuth_angle": -17.027884551432408
+        },
+        "2": {
+          "ellipsis_major_axis": 3638.962815833973,
+          "ellipsis_minor_axis": 3062.8035415542795,
+          "centerlon": 2.2253184419713836,
+          "centerlat": 52.04899395866452,
+          "ellipsis_major_axis_azimuth_angle": -71.59505970508303
+        },
+        "3": {
+          "ellipsis_major_axis": 3908.9752286805424,
+          "ellipsis_minor_axis": 3391.482311301609,
+          "centerlon": 2.229422337042923,
+          "centerlat": 52.044914626391055,
+          "ellipsis_major_axis_azimuth_angle": -53.33290668104303
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1767298753738404,
+            2.2253184419713836,
+            2.229422337042923
+          ],
+          "memberlats": [
+            51.99635287628174,
+            52.04899395866452,
+            52.044914626391055
+          ],
+          "centerlon": 2.2104902181293826,
+          "centerlat": 52.03008715377911,
+          "distance_from_cluster_centre": [
+            4405.564989229804,
+            2334.197730122457,
+            2096.4990906295666
+          ],
+          "distance_std": 1037.0282482704113,
+          "longest_ellipsis_axis": 3908.9752286805424
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1974
+          ],
+          "memberlats": [
+            52.1807
+          ],
+          "centerlon": 2.197416305541992,
+          "centerlat": 52.180721282958984,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5665.376766828269
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T00:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.204763284078997,
+        "centerlat": 52.08849227970482,
+        "ellipsis_major_axis": 9197.331704422835,
+        "ellipsis_minor_axis": 4069.408764068745,
+        "ellipsis_major_axis_azimuth_angle": -0.39028094030209104
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5491.995138323576,
+          "ellipsis_minor_axis": 4883.064737428184,
+          "centerlon": 2.1985,
+          "centerlat": 52.1926,
+          "ellipsis_major_axis_azimuth_angle": -67.38443926101127
+        },
+        "1": {
+          "ellipsis_major_axis": 1292.1687131831532,
+          "ellipsis_minor_axis": 1224.0304859357088,
+          "centerlon": 2.1830606470108034,
+          "centerlat": 52.01106689300537,
+          "ellipsis_major_axis_azimuth_angle": -19.724003954078285
+        },
+        "2": {
+          "ellipsis_major_axis": 3558.9489066466226,
+          "ellipsis_minor_axis": 2953.3193642394394,
+          "centerlon": 2.2304674085850547,
+          "centerlat": 52.0640144674086,
+          "ellipsis_major_axis_azimuth_angle": -75.58933035597272
+        },
+        "3": {
+          "ellipsis_major_axis": 3796.2271440941963,
+          "ellipsis_minor_axis": 3282.1486271874824,
+          "centerlon": 2.234591414944356,
+          "centerlat": 52.059856120826566,
+          "ellipsis_major_axis_azimuth_angle": -58.14243088731291
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1830606470108034,
+            2.2304674085850547,
+            2.234591414944356
+          ],
+          "memberlats": [
+            52.01106689300537,
+            52.0640144674086,
+            52.059856120826566
+          ],
+          "centerlon": 2.216039823513405,
+          "centerlat": 52.04497916041351,
+          "distance_from_cluster_centre": [
+            4394.3504510964285,
+            2335.2253061641504,
+            2084.6281277080207
+          ],
+          "distance_std": 1034.8168125326065,
+          "longest_ellipsis_axis": 3796.2271440941963
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1985
+          ],
+          "memberlats": [
+            52.1926
+          ],
+          "centerlon": 2.1985249519348145,
+          "centerlat": 52.19261169433594,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5491.995138323576
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T01:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.2059497573285105,
+        "centerlat": 52.097900440569724,
+        "ellipsis_major_axis": 9362.936566464927,
+        "ellipsis_minor_axis": 3961.1458067255094,
+        "ellipsis_major_axis_azimuth_angle": -0.4309698378692701
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5307.785890280308,
+          "ellipsis_minor_axis": 4646.966644684152,
+          "centerlon": 2.1995,
+          "centerlat": 52.2051,
+          "ellipsis_major_axis_azimuth_angle": -68.0901131354176
+        },
+        "1": {
+          "ellipsis_major_axis": 1309.9404238748955,
+          "ellipsis_minor_axis": 1224.9101980820972,
+          "centerlon": 2.184820896911621,
+          "centerlat": 52.01853703613281,
+          "ellipsis_major_axis_azimuth_angle": -19.751194808369974
+        },
+        "2": {
+          "ellipsis_major_axis": 3474.019240520439,
+          "ellipsis_minor_axis": 2837.071513363853,
+          "centerlon": 2.2311303656597774,
+          "centerlat": 52.07231510333871,
+          "ellipsis_major_axis_azimuth_angle": -80.82759579287199
+        },
+        "3": {
+          "ellipsis_major_axis": 3684.0375241004745,
+          "ellipsis_minor_axis": 3183.8394850713025,
+          "centerlon": 2.235590699523051,
+          "centerlat": 52.068218839427686,
+          "ellipsis_major_axis_azimuth_angle": -64.87741184129004
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.184820896911621,
+            2.2311303656597774,
+            2.235590699523051
+          ],
+          "memberlats": [
+            52.01853703613281,
+            52.07231510333871,
+            52.068218839427686
+          ],
+          "centerlon": 2.2171806540314836,
+          "centerlat": 52.05302365963306,
+          "distance_from_cluster_centre": [
+            4427.743623630142,
+            2347.5359239743975,
+            2106.8819845000253
+          ],
+          "distance_std": 1041.9840657918649,
+          "longest_ellipsis_axis": 3684.0375241004745
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1995
+          ],
+          "memberlats": [
+            52.2051
+          ],
+          "centerlon": 2.199491500854492,
+          "centerlat": 52.2050895690918,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5307.785890280308
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T02:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.2042417497826228,
+        "centerlat": 52.10184157519297,
+        "ellipsis_major_axis": 9942.520675275904,
+        "ellipsis_minor_axis": 3852.543764899972,
+        "ellipsis_major_axis_azimuth_angle": 0.3654442882547073
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 5112.69378486215,
+          "ellipsis_minor_axis": 4398.232729333335,
+          "centerlon": 2.2002,
+          "centerlat": 52.2177,
+          "ellipsis_major_axis_azimuth_angle": -69.15165071467732
+        },
+        "1": {
+          "ellipsis_major_axis": 1328.483010951663,
+          "ellipsis_minor_axis": 1238.7590363255938,
+          "centerlon": 2.1818851660728455,
+          "centerlat": 52.01757673492432,
+          "ellipsis_major_axis_azimuth_angle": -19.94507819317664
+        },
+        "2": {
+          "ellipsis_major_axis": 3398.5224277119573,
+          "ellipsis_minor_axis": 2709.2266699624493,
+          "centerlon": 2.228044515103338,
+          "centerlat": 52.07238139904619,
+          "ellipsis_major_axis_azimuth_angle": -86.94695177255471
+        },
+        "3": {
+          "ellipsis_major_axis": 3574.3767488444987,
+          "ellipsis_minor_axis": 3078.9104502055056,
+          "centerlon": 2.232830127186012,
+          "centerlat": 52.06844443561209,
+          "ellipsis_major_axis_azimuth_angle": -73.44728936359934
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1818851660728455,
+            2.228044515103338,
+            2.232830127186012
+          ],
+          "memberlats": [
+            52.01757673492432,
+            52.07238139904619,
+            52.06844443561209
+          ],
+          "centerlon": 2.214253269454065,
+          "centerlat": 52.05280085652754,
+          "distance_from_cluster_centre": [
+            4499.248761947547,
+            2372.6212978153953,
+            2153.7788642332307
+          ],
+          "distance_std": 1057.862909781441,
+          "longest_ellipsis_axis": 3574.3767488444987
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2002
+          ],
+          "memberlats": [
+            52.2177
+          ],
+          "centerlon": 2.200237512588501,
+          "centerlat": 52.217742919921875,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 5112.69378486215
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T03:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.199946122848791,
+        "centerlat": 52.10098161415965,
+        "ellipsis_major_axis": 10913.100620235293,
+        "ellipsis_minor_axis": 3735.9862583285067,
+        "ellipsis_major_axis_azimuth_angle": 1.6453496488085193
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4909.652975559971,
+          "ellipsis_minor_axis": 4139.0783650325575,
+          "centerlon": 2.2008,
+          "centerlat": 52.2307,
+          "ellipsis_major_axis_azimuth_angle": -70.55744041962362
+        },
+        "1": {
+          "ellipsis_major_axis": 1334.7400537269189,
+          "ellipsis_minor_axis": 1248.0950876116253,
+          "centerlon": 2.175020973110199,
+          "centerlat": 52.00905068511963,
+          "ellipsis_major_axis_azimuth_angle": -19.71825044794332
+        },
+        "2": {
+          "ellipsis_major_axis": 3337.1703932073747,
+          "ellipsis_minor_axis": 2576.099596107977,
+          "centerlon": 2.2213996025437255,
+          "centerlat": 52.06535039745626,
+          "ellipsis_major_axis_azimuth_angle": -93.27121292513914
+        },
+        "3": {
+          "ellipsis_major_axis": 3473.2945533022353,
+          "ellipsis_minor_axis": 2965.8896859148795,
+          "centerlon": 2.2263953895071595,
+          "centerlat": 52.06167527821943,
+          "ellipsis_major_axis_azimuth_angle": -83.0838654487643
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.175020973110199,
+            2.2213996025437255,
+            2.2263953895071595
+          ],
+          "memberlats": [
+            52.00905068511963,
+            52.06535039745626,
+            52.06167527821943
+          ],
+          "centerlon": 2.2076053217203615,
+          "centerlat": 52.04535878693178,
+          "distance_from_cluster_centre": [
+            4611.882357011933,
+            2414.7752782468683,
+            2223.159015166457
+          ],
+          "distance_std": 1083.7176503803869,
+          "longest_ellipsis_axis": 3473.2945533022353
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2008
+          ],
+          "memberlats": [
+            52.2307
+          ],
+          "centerlon": 2.2007641792297363,
+          "centerlat": 52.23066711425781,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 4909.652975559971
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T04:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1938187841737697,
+        "centerlat": 52.097152780803455,
+        "ellipsis_major_axis": 12157.608189408944,
+        "ellipsis_minor_axis": 3615.320501746292,
+        "ellipsis_major_axis_azimuth_angle": 3.012388163473645
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4699.651152349626,
+          "ellipsis_minor_axis": 3870.906170970334,
+          "centerlon": 2.2011,
+          "centerlat": 52.2438,
+          "ellipsis_major_axis_azimuth_angle": -72.23728182878006
+        },
+        "1": {
+          "ellipsis_major_axis": 1345.8854343791475,
+          "ellipsis_minor_axis": 1264.7338143697862,
+          "centerlon": 2.1653300877571104,
+          "centerlat": 51.9956682800293,
+          "ellipsis_major_axis_azimuth_angle": -16.814548863440905
+        },
+        "2": {
+          "ellipsis_major_axis": 3292.2419364303323,
+          "ellipsis_minor_axis": 2445.2924390503435,
+          "centerlon": 2.2123868044515045,
+          "centerlat": 52.05406414944359,
+          "ellipsis_major_axis_azimuth_angle": -99.06095279293902
+        },
+        "3": {
+          "ellipsis_major_axis": 3390.0973738479643,
+          "ellipsis_minor_axis": 2839.293560914137,
+          "centerlon": 2.2174068362480126,
+          "centerlat": 52.0506213036566,
+          "ellipsis_major_axis_azimuth_angle": -92.43620987862892
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1653300877571104,
+            2.2123868044515045,
+            2.2174068362480126
+          ],
+          "memberlats": [
+            51.9956682800293,
+            52.05406414944359,
+            52.0506213036566
+          ],
+          "centerlon": 2.1983745761522093,
+          "centerlat": 52.0334512443765,
+          "distance_from_cluster_centre": [
+            4771.247590077641,
+            2484.3242908294674,
+            2310.7452585500628
+          ],
+          "distance_std": 1121.2205442950628,
+          "longest_ellipsis_axis": 3390.0973738479643
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2011
+          ],
+          "memberlats": [
+            52.2438
+          ],
+          "centerlon": 2.201094388961792,
+          "centerlat": 52.243751525878906,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 4699.651152349626
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T05:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1871250127210713,
+        "centerlat": 52.093169215546546,
+        "ellipsis_major_axis": 13467.962330112057,
+        "ellipsis_minor_axis": 3496.6223070595693,
+        "ellipsis_major_axis_azimuth_angle": 4.195327079663571
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4481.482623249944,
+          "ellipsis_minor_axis": 3593.4914723415263,
+          "centerlon": 2.2012,
+          "centerlat": 52.2571,
+          "ellipsis_major_axis_azimuth_angle": -74.02357374877488
+        },
+        "1": {
+          "ellipsis_major_axis": 1342.9280793364314,
+          "ellipsis_minor_axis": 1269.1283983917565,
+          "centerlon": 2.1543400945663453,
+          "centerlat": 51.981568019104,
+          "ellipsis_major_axis_azimuth_angle": -11.983356297620276
+        },
+        "2": {
+          "ellipsis_major_axis": 3255.9912183083907,
+          "ellipsis_minor_axis": 2324.5332202261297,
+          "centerlon": 2.203300476947537,
+          "centerlat": 52.04284848966619,
+          "ellipsis_major_axis_azimuth_angle": -103.78409686963732
+        },
+        "3": {
+          "ellipsis_major_axis": 3317.498422874044,
+          "ellipsis_minor_axis": 2700.356472723122,
+          "centerlon": 2.2080568362480144,
+          "centerlat": 52.03949515103337,
+          "ellipsis_major_axis_azimuth_angle": -99.79856694541843
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1543400945663453,
+            2.203300476947537,
+            2.2080568362480144
+          ],
+          "memberlats": [
+            51.981568019104,
+            52.04284848966619,
+            52.03949515103337
+          ],
+          "centerlon": 2.188565802587299,
+          "centerlat": 52.021303886601196,
+          "distance_from_cluster_centre": [
+            5001.196957345796,
+            2599.0738471240634,
+            2422.7321160535994
+          ],
+          "distance_std": 1176.141184862045,
+          "longest_ellipsis_axis": 3317.498422874044
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2012
+          ],
+          "memberlats": [
+            52.2571
+          ],
+          "centerlon": 2.2012341022491455,
+          "centerlat": 52.25710678100586,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 4481.482623249944
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T06:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.181458456423132,
+        "centerlat": 52.09242380150129,
+        "ellipsis_major_axis": 14570.119754613475,
+        "ellipsis_minor_axis": 3408.430451139184,
+        "ellipsis_major_axis_azimuth_angle": 5.063133667414945
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4260.9969629943835,
+          "ellipsis_minor_axis": 3309.374094589113,
+          "centerlon": 2.2012,
+          "centerlat": 52.2708,
+          "ellipsis_major_axis_azimuth_angle": -76.01413591811956
+        },
+        "1": {
+          "ellipsis_major_axis": 1342.961451325923,
+          "ellipsis_minor_axis": 1280.7833311480658,
+          "centerlon": 2.143664772891998,
+          "centerlat": 51.97217872314453,
+          "ellipsis_major_axis_azimuth_angle": -8.402775484953509
+        },
+        "2": {
+          "ellipsis_major_axis": 3223.4972891032644,
+          "ellipsis_minor_axis": 2211.7668723924157,
+          "centerlon": 2.197308505564392,
+          "centerlat": 52.03643052464232,
+          "ellipsis_major_axis_azimuth_angle": -107.45866118707909
+        },
+        "3": {
+          "ellipsis_major_axis": 3246.8501574502206,
+          "ellipsis_minor_axis": 2552.3971973532152,
+          "centerlon": 2.20156748807631,
+          "centerlat": 52.033048012718616,
+          "ellipsis_major_axis_azimuth_angle": -105.00260888539322
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.143664772891998,
+            2.197308505564392,
+            2.20156748807631
+          ],
+          "memberlats": [
+            51.97217872314453,
+            52.03643052464232,
+            52.033048012718616
+          ],
+          "centerlon": 2.1808469221775666,
+          "centerlat": 52.013885753501825,
+          "distance_from_cluster_centre": [
+            5290.4315318886875,
+            2748.2578536205447,
+            2559.3171057535437
+          ],
+          "distance_std": 1245.3170781115866,
+          "longest_ellipsis_axis": 3246.8501574502206
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2012
+          ],
+          "memberlats": [
+            52.2708
+          ],
+          "centerlon": 2.2011563777923584,
+          "centerlat": 52.2707633972168,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 4260.9969629943835
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T07:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1788644172239584,
+        "centerlat": 52.09890668701367,
+        "ellipsis_major_axis": 15121.36045406266,
+        "ellipsis_minor_axis": 3367.199599387148,
+        "ellipsis_major_axis_azimuth_angle": 5.448539779875716
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 4046.0816105031795,
+          "ellipsis_minor_axis": 3023.1331843905227,
+          "centerlon": 2.2009,
+          "centerlat": 52.2846,
+          "ellipsis_major_axis_azimuth_angle": -78.2565316678157
+        },
+        "1": {
+          "ellipsis_major_axis": 1361.9115970056368,
+          "ellipsis_minor_axis": 1316.0667374952275,
+          "centerlon": 2.1367930062294005,
+          "centerlat": 51.97459268951416,
+          "ellipsis_major_axis_azimuth_angle": -5.045195601401815
+        },
+        "2": {
+          "ellipsis_major_axis": 3192.5588233207563,
+          "ellipsis_minor_axis": 2109.8052680374312,
+          "centerlon": 2.1969174085850574,
+          "centerlat": 52.03969682034968,
+          "ellipsis_major_axis_azimuth_angle": -109.9525001862562
+        },
+        "3": {
+          "ellipsis_major_axis": 3178.7223798672967,
+          "ellipsis_minor_axis": 2407.518036622735,
+          "centerlon": 2.2007158982511923,
+          "centerlat": 52.03620914149442,
+          "ellipsis_major_axis_azimuth_angle": -108.0704059369956
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1367930062294005,
+            2.1969174085850574,
+            2.2007158982511923
+          ],
+          "memberlats": [
+            51.97459268951416,
+            52.03969682034968,
+            52.03620914149442
+          ],
+          "centerlon": 2.1781421043552167,
+          "centerlat": 52.01683288378609,
+          "distance_from_cluster_centre": [
+            5484.0850679364585,
+            2848.4283794939884,
+            2650.92012009524
+          ],
+          "distance_std": 1291.5330818466343,
+          "longest_ellipsis_axis": 3192.5588233207563
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2009
+          ],
+          "memberlats": [
+            52.2846
+          ],
+          "centerlon": 2.200856924057007,
+          "centerlat": 52.28459167480469,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 4046.0816105031795
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T08:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1808247041060227,
+        "centerlat": 52.11414722817235,
+        "ellipsis_major_axis": 14986.539118837532,
+        "ellipsis_minor_axis": 3350.4370571828094,
+        "ellipsis_major_axis_azimuth_angle": 5.177000027654628
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3847.3512001574018,
+          "ellipsis_minor_axis": 2739.471026408993,
+          "centerlon": 2.2004,
+          "centerlat": 52.2986,
+          "ellipsis_major_axis_azimuth_angle": -80.70976098650976
+        },
+        "1": {
+          "ellipsis_major_axis": 1370.9336721739278,
+          "ellipsis_minor_axis": 1335.3407582536975,
+          "centerlon": 2.137499785327911,
+          "centerlat": 51.99110711669922,
+          "ellipsis_major_axis_azimuth_angle": -8.80575489093917
+        },
+        "2": {
+          "ellipsis_major_axis": 3169.7806128826373,
+          "ellipsis_minor_axis": 2023.3774050026507,
+          "centerlon": 2.202667090620032,
+          "centerlat": 52.05496558028615,
+          "ellipsis_major_axis_azimuth_angle": -111.84234469403873
+        },
+        "3": {
+          "ellipsis_major_axis": 3126.0460088179952,
+          "ellipsis_minor_axis": 2278.659633749485,
+          "centerlon": 2.2062172496025423,
+          "centerlat": 52.05133267090622,
+          "ellipsis_major_axis_azimuth_angle": -109.95760599992923
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.137499785327911,
+            2.202667090620032,
+            2.2062172496025423
+          ],
+          "memberlats": [
+            51.99110711669922,
+            52.05496558028615,
+            52.05133267090622
+          ],
+          "centerlon": 2.1821280418501616,
+          "centerlat": 52.03246845596386,
+          "distance_from_cluster_centre": [
+            5521.012964949158,
+            2868.9733021139314,
+            2667.286665626127
+          ],
+          "distance_std": 1300.3309691526347,
+          "longest_ellipsis_axis": 3169.7806128826373
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.2004
+          ],
+          "memberlats": [
+            52.2986
+          ],
+          "centerlon": 2.200377941131592,
+          "centerlat": 52.29856491088867,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3847.3512001574018
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T09:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.186119104060954,
+        "centerlat": 52.13655644970743,
+        "ellipsis_major_axis": 14299.6424947759,
+        "ellipsis_minor_axis": 3342.9562585227964,
+        "ellipsis_major_axis_azimuth_angle": 4.373169729949382
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3674.61914274884,
+          "ellipsis_minor_axis": 2462.803575674681,
+          "centerlon": 2.1997,
+          "centerlat": 52.3128,
+          "ellipsis_major_axis_azimuth_angle": -83.3307165263169
+        },
+        "1": {
+          "ellipsis_major_axis": 1416.5983178443998,
+          "ellipsis_minor_axis": 1373.6101239321883,
+          "centerlon": 2.144652820110321,
+          "centerlat": 52.01882593994141,
+          "ellipsis_major_axis_azimuth_angle": -17.95479764468928
+        },
+        "2": {
+          "ellipsis_major_axis": 3171.092949602587,
+          "ellipsis_minor_axis": 1941.3879215054583,
+          "centerlon": 2.2120437996820357,
+          "centerlat": 52.08035810810808,
+          "ellipsis_major_axis_azimuth_angle": -113.19953368012455
+        },
+        "3": {
+          "ellipsis_major_axis": 3099.4438028392296,
+          "ellipsis_minor_axis": 2153.707658358496,
+          "centerlon": 2.2155946740858465,
+          "centerlat": 52.076570349761504,
+          "ellipsis_major_axis_azimuth_angle": -111.07163571200294
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.144652820110321,
+            2.2120437996820357,
+            2.2155946740858465
+          ],
+          "memberlats": [
+            52.01882593994141,
+            52.08035810810808,
+            52.076570349761504
+          ],
+          "centerlon": 2.190763764626068,
+          "centerlat": 52.058584799270335,
+          "distance_from_cluster_centre": [
+            5430.70073918685,
+            2824.4132305176777,
+            2623.069824446865
+          ],
+          "distance_std": 1278.717460688067,
+          "longest_ellipsis_axis": 3171.092949602587
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1997
+          ],
+          "memberlats": [
+            52.3128
+          ],
+          "centerlon": 2.1997082233428955,
+          "centerlat": 52.31281280517578,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3674.61914274884
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T10:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.1924776374676305,
+        "centerlat": 52.16351934620206,
+        "ellipsis_major_axis": 13263.03931223145,
+        "ellipsis_minor_axis": 3339.05447009139,
+        "ellipsis_major_axis_azimuth_angle": 3.284554787109755
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3543.703221247961,
+          "ellipsis_minor_axis": 2203.910310287828,
+          "centerlon": 2.1989,
+          "centerlat": 52.327,
+          "ellipsis_major_axis_azimuth_angle": -86.04097693897415
+        },
+        "1": {
+          "ellipsis_major_axis": 1461.3909852481706,
+          "ellipsis_minor_axis": 1397.7426432608388,
+          "centerlon": 2.1546902568817137,
+          "centerlat": 52.0542070022583,
+          "ellipsis_major_axis_azimuth_angle": -22.717607720130104
+        },
+        "2": {
+          "ellipsis_major_axis": 3224.856692918007,
+          "ellipsis_minor_axis": 1863.3940488021253,
+          "centerlon": 2.2216480922098563,
+          "centerlat": 52.11154276629576,
+          "ellipsis_major_axis_azimuth_angle": -114.43878589467306
+        },
+        "3": {
+          "ellipsis_major_axis": 3123.1396181232176,
+          "ellipsis_minor_axis": 2029.7667907451278,
+          "centerlon": 2.225596263910966,
+          "centerlat": 52.10772408585048,
+          "ellipsis_major_axis_azimuth_angle": -112.09684853731312
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1546902568817137,
+            2.2216480922098563,
+            2.225596263910966
+          ],
+          "memberlats": [
+            52.0542070022583,
+            52.11154276629576,
+            52.10772408585048
+          ],
+          "centerlon": 2.2006448710008453,
+          "centerlat": 52.091157951468176,
+          "distance_from_cluster_centre": [
+            5171.746016629061,
+            2682.521688560707,
+            2509.578430036978
+          ],
+          "distance_std": 1216.245743864549,
+          "longest_ellipsis_axis": 3224.856692918007
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1989
+          ],
+          "memberlats": [
+            52.327
+          ],
+          "centerlon": 2.198922634124756,
+          "centerlat": 52.327030181884766,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3543.703221247961
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T11:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.197974082858972,
+        "centerlat": 52.19201849127622,
+        "ellipsis_major_axis": 12112.793561728042,
+        "ellipsis_minor_axis": 3333.743494038912,
+        "ellipsis_major_axis_azimuth_angle": 2.1590994959424847
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3470.7502256704897,
+          "ellipsis_minor_axis": 1980.9253257094044,
+          "centerlon": 2.1982,
+          "centerlat": 52.3415,
+          "ellipsis_major_axis_azimuth_angle": -88.69690471195622
+        },
+        "1": {
+          "ellipsis_major_axis": 1521.8048297229507,
+          "ellipsis_minor_axis": 1435.348688959808,
+          "centerlon": 2.1645654428482057,
+          "centerlat": 52.09284518127441,
+          "ellipsis_major_axis_azimuth_angle": -23.307849339005315
+        },
+        "2": {
+          "ellipsis_major_axis": 3329.0086412168857,
+          "ellipsis_minor_axis": 1806.0065497928315,
+          "centerlon": 2.2285383942766344,
+          "centerlat": 52.14390270270277,
+          "ellipsis_major_axis_azimuth_angle": -115.72803605901004
+        },
+        "3": {
+          "ellipsis_major_axis": 3198.4257975572723,
+          "ellipsis_minor_axis": 1925.7851896858697,
+          "centerlon": 2.2333137519872786,
+          "centerlat": 52.14020707472174,
+          "ellipsis_major_axis_azimuth_angle": -113.25453378959946
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.1645654428482057,
+            2.2285383942766344,
+            2.2333137519872786
+          ],
+          "memberlats": [
+            52.09284518127441,
+            52.14390270270277,
+            52.14020707472174
+          ],
+          "centerlon": 2.208805863037373,
+          "centerlat": 52.12565165289964,
+          "distance_from_cluster_centre": [
+            4736.572298166219,
+            2435.6514802990177,
+            2327.5988095665907
+          ],
+          "distance_std": 1111.0088137725675,
+          "longest_ellipsis_axis": 3329.0086412168857
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1982
+          ],
+          "memberlats": [
+            52.3415
+          ],
+          "centerlon": 2.1982176303863525,
+          "centerlat": 52.34146499633789,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3470.7502256704897
+        }
+      }
+    },
+    {
+      "time": "2023-12-07T12:00:00Z",
+      "super-ellipse": {
+        "centerlon": 2.2013306049024126,
+        "centerlat": 52.21942590538216,
+        "ellipsis_major_axis": 11062.641600107321,
+        "ellipsis_minor_axis": 3322.436866612419,
+        "ellipsis_major_axis_azimuth_angle": 1.308407048726906
+      },
+      "ellipses": {
+        "0": {
+          "ellipsis_major_axis": 3463.68075732351,
+          "ellipsis_minor_axis": 1814.0933631421954,
+          "centerlon": 2.1976,
+          "centerlat": 52.3559,
+          "ellipsis_major_axis_azimuth_angle": -91.09028235439575
+        },
+        "1": {
+          "ellipsis_major_axis": 1567.1890945933903,
+          "ellipsis_minor_axis": 1460.1561638040807,
+          "centerlon": 2.171911976718903,
+          "centerlat": 52.13006687011719,
+          "ellipsis_major_axis_azimuth_angle": -24.098158488215176
+        },
+        "2": {
+          "ellipsis_major_axis": 3463.841136848055,
+          "ellipsis_minor_axis": 1764.6112831125895,
+          "centerlon": 2.2312490461049284,
+          "centerlat": 52.17423728139902,
+          "ellipsis_major_axis_azimuth_angle": -117.4511377785401
+        },
+        "3": {
+          "ellipsis_major_axis": 3307.797167727833,
+          "ellipsis_minor_axis": 1844.088127065863,
+          "centerlon": 2.2372660572337026,
+          "centerlat": 52.17085858505568,
+          "ellipsis_major_axis_azimuth_angle": -114.83652433388795
+        }
+      },
+      "clusters": {
+        "0": {
+          "members": [
+            1,
+            2,
+            3
+          ],
+          "memberlons": [
+            2.171911976718903,
+            2.2312490461049284,
+            2.2372660572337026
+          ],
+          "memberlats": [
+            52.13006687011719,
+            52.17423728139902,
+            52.17085858505568
+          ],
+          "centerlon": 2.213475693352511,
+          "centerlat": 52.15838757885731,
+          "distance_from_cluster_centre": [
+            4238.046583910756,
+            2139.048921860178,
+            2134.4743191699627
+          ],
+          "distance_std": 990.5569917571225,
+          "longest_ellipsis_axis": 3463.841136848055
+        },
+        "1": {
+          "members": [
+            0
+          ],
+          "memberlons": [
+            2.1976
+          ],
+          "memberlats": [
+            52.3559
+          ],
+          "centerlon": 2.1976096630096436,
+          "centerlat": 52.35594177246094,
+          "distance_from_cluster_centre": [
+            0.0
+          ],
+          "distance_std": 0.0,
+          "longest_ellipsis_axis": 3463.68075732351
+        }
+      }
+    }
+  ]
+}

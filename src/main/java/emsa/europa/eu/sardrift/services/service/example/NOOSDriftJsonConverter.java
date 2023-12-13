@@ -20,7 +20,7 @@ public class NOOSDriftJsonConverter {
     public static void main(String[] args) {
         try {
             // Specify the path to the JSON file inside the "data" folder
-            final int simulationID = 1473;
+            final int simulationID = 1508;
             final String simulationJsonFilePrefix = "noosdrift_" + simulationID;
             final String simulationJsonInputFile = "src/main/resources/data/mme_output/"+simulationJsonFilePrefix+".json";
 
